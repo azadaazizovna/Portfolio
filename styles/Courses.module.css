@@ -1,0 +1,42 @@
+.courses{
+    min-height: 100vh;
+    padding-top: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.slider {
+    width: 600px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+}
+.eachSlide  {
+    width: 100%;
+    height: 100%;
+    
+}
+.eachSlide .img {
+    width: 100%;
+    height: 100%;
+    
+}
+.courses h1 {
+    margin-bottom: 20px;
+    color: #424242;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+@media screen and (max-width: 920px) {
+    .slider {
+        width: 400px;
+        height: 300px;
+    }
+    .courses h1 {
+        font-size: 22px;
+    }
+}
